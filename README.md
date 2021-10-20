@@ -26,3 +26,7 @@ As per the design pattern reference book Design Patterns - Elements of Reusable 
       These design patterns are specifically concerned with communication between objects
    ![DESIGN PATTERNS CATALOG](https://circle.visual-paradigm.com/wp-content/uploads/2017/08/GoF-Design-Patterns-Catalog.png)
    
+### Designs discussed in this repo
+1. **Strategy pattern**
+
+   The Strategy Pattern defines a family of algorithms,encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it
