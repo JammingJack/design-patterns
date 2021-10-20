@@ -31,7 +31,12 @@ As per the design pattern reference book Design Patterns - Elements of Reusable 
 
    The Strategy Pattern defines a family of algorithms,encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it
 
-   Generaly speaking this is the class diagram of the strategy pattern 
+   ##### Intent
+
+      * Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from the clients that use it.
+      * Capture the abstraction in an interface, bury implementation details in derived classes.
+
+      Generaly speaking this is the class diagram of the strategy pattern 
    
    ![strategy uml](https://upload.wikimedia.org/wikipedia/commons/3/39/Strategy_Pattern_in_UML.png)
 
@@ -47,6 +52,14 @@ As per the design pattern reference book Design Patterns - Elements of Reusable 
 
    The Observer Pattern defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically
 
+   ##### Intent
+
+   * Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
+   * Encapsulate the core (or common or engine) components in a Subject abstraction, and the variable (or optional or user interface) components in an Observer hierarchy.
+   * The "View" part of Model-View-Controller.
+
+   Generaly speaking this is the class diagram of the strategy pattern
+
    ![observer uml](./images/observer%20class%20diag.png)
    
    When implemented to the problem at hand, we get the following class diagram 
@@ -56,6 +69,31 @@ As per the design pattern reference book Design Patterns - Elements of Reusable 
    This is the result of the executions of the program:
 
    ![observer exec](./images/observer%20execution%20result.png)
+
+3. **Decorator Pattern**
+
+   The Decorator Pattern attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
+
+      ##### Intent
+
+      * Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
+      * Client-specified embellishment of a core object by recursively wrapping it.
+      * Wrapping a gift, putting it in a box, and wrapping the box.
+
+   Generaly speaking this is the class diagram of the strategy pattern
+
+   ![decorator uml](./images/decorator%20uml%20diag.png)
+
+   When implemented to the the problem at hand, we get the following diagram:
+
+   ![decorator impl uml](./images/decorator%20uml%20diag%20impl.png)
+
+   The result of the execution of the program  is the following
+
+   ![decorator exec](./images/decorator%20exec.png)
+
+   
+   
 
 
    
