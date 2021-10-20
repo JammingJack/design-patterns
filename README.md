@@ -30,3 +30,32 @@ As per the design pattern reference book Design Patterns - Elements of Reusable 
 1. **Strategy pattern**
 
    The Strategy Pattern defines a family of algorithms,encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it
+
+   Generaly speaking this is the class diagram of the strategy pattern 
+   
+   ![strategy uml](https://upload.wikimedia.org/wikipedia/commons/3/39/Strategy_Pattern_in_UML.png)
+
+   When applied to the problem at hand, we end up with the following class diagram
+   
+   ![strategy impl uml](./images/strategy%20class%20diag%20impl.png)
+
+   Next is the output of our implementation:
+
+   ![strategy exec](./images/strategy%20execution%20result.png)
+
+2. **Observer pattern**
+
+   The Observer Pattern defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically
+
+   ![observer uml](./images/observer%20class%20diag.png)
+   
+   When implemented to the problem at hand, we get the following class diagram 
+
+   ![observer impl uml](./images/observer%20class%20diag%20impl.png)
+
+   This is the result of the executions of the program:
+
+   ![observer exec](./images/observer%20execution%20result.png)
+
+
+   
